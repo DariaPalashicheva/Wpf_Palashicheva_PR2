@@ -246,5 +246,11 @@ namespace Wpf_Palashicheva_PR2
         {
             SB.Text = "";
         }
+
+        private void Win2_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+        }
     }
 }

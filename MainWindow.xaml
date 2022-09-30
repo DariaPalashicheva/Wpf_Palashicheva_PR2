@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Палашичева УП ПР2 Задание1" Height="450" Width="800">
     <Grid>
-        <Menu Background="#FFFFFBFF" BorderBrush="Navy" BorderThickness="1" Margin="0,0,0,358" VerticalAlignment="Center">
+        <Menu Background="#FFFFFBFF" BorderBrush="Navy" BorderThickness="1" Margin="0,0,0,358">
             <MenuItem Header = "_Цвет окна" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" Height="60">
                 <MenuItem Header = "_Желтый" Click="MenuItem_Click_1"/>
                 <MenuItem Header = "_Красный" Click="MenuItem_Click_2"/>
@@ -58,6 +58,14 @@
                 <Image Width="25" Height="25" Source="D:\Палашичева\УП WPF\images\exit.png" MouseDown="MenuItem_Click_8" MouseEnter="Image_MouseEnter_9" MouseLeave="Image_MouseLeave_9"/>
             </Button>
             <Separator/>
+            <Button x:Name="Win2" Content="Графический редактор" HorizontalAlignment="Left" VerticalAlignment="Top" Width="226" Height="45" Click="Win2_Click" FontSize="16" BorderBrush="#FF3E3AA6">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3E7F3" Offset="0"/>
+                        <GradientStop Color="#FFEDEBFF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </ToolBar>
     </Grid>
 </Window>
