@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Wpf_Palashicheva_PR2"
         mc:Ignorable="d"
         Title="Задание 2. Графический редактор" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFFDF4FF">
+        <InkCanvas Margin="49,49,42,46">
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes Color="Red" Height="10" Width="1"/>
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
     </Grid>
 </Window>
