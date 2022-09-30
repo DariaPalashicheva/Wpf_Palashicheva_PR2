@@ -65,5 +65,40 @@ namespace Wpf_Palashicheva_PR2
         {
             Window1.Background = Brushes.Gray;
         }
+
+        private void MenuItem_Click_8(object sender, RoutedEventArgs e)
+        {
+            Window1.Close();
+        }
+
+        private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Изменить цвет окна";
+        }
+
+        private void MenuItem_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void MenuItem_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Информация о разработчике";
+        }
+
+        private void MenuItem_MouseLeave_1(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void MenuItem_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Выход из приложения";
+        }
+
+        private void MenuItem_MouseLeave_2(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
     }
 }

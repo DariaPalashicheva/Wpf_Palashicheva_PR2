@@ -8,7 +8,7 @@
         Title="Палашичева УП ПР2 Задание1" Height="450" Width="800">
     <Grid>
         <Menu Background="White" BorderBrush="Navy" BorderThickness="1" Margin="0,0,0,387">
-            <MenuItem Header = "_Цвет окна">
+            <MenuItem Header = "_Цвет окна" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave">
                 <MenuItem Header = "_Желтый" Click="MenuItem_Click_1"/>
                 <MenuItem Header = "_Красный" Click="MenuItem_Click_2"/>
                 <MenuItem Header = "_Оранжевый" Click="MenuItem_Click_3"/>
@@ -17,8 +17,11 @@
                 <MenuItem Header = "_Синий" Click="MenuItem_Click_6"/>
                 <MenuItem Header = "_Серый" Click="MenuItem_Click_7"/>
             </MenuItem>
-            <MenuItem Header = "_О разработчике" Click="MenuItem_Click"/>
-            <MenuItem Header = "_Закрыть"/>
+            <MenuItem Header = "_О разработчике" Click="MenuItem_Click" MouseEnter="MenuItem_MouseEnter_1" MouseLeave="MenuItem_MouseLeave_1"/>
+            <MenuItem Header = "_Закрыть" Click="MenuItem_Click_8" MouseEnter="MenuItem_MouseEnter_2" MouseLeave="MenuItem_MouseLeave_2"/>
         </Menu>
+        <StatusBar HorizontalAlignment="Left" Height="34" Margin="0,386,0,-1" VerticalAlignment="Top" Width="792">
+        <TextBlock x:Name="SB"/>
+        </StatusBar>
     </Grid>
 </Window>
