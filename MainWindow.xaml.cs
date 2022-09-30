@@ -71,6 +71,11 @@ namespace Wpf_Palashicheva_PR2
             Window1.Close();
         }
 
+        private void MenuItem_Click_9(object sender, RoutedEventArgs e)
+        {
+            Window1.Background = Brushes.White;
+        }
+
         private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
         {
             SB.Text = "Изменить цвет окна";
@@ -97,6 +102,147 @@ namespace Wpf_Palashicheva_PR2
         }
 
         private void MenuItem_MouseLeave_2(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Yellow;
+        }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в жёлтый";
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Red;
+        }
+
+        private void Image_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в красный";
+        }
+
+        private void Image_MouseLeave_1(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Orange;
+        }
+
+        private void Image_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в оранжевый";
+        }
+
+        private void Image_MouseLeave_2(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Green;
+        }
+
+        private void Image_MouseEnter_3(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в зеленый";
+        }
+
+        private void Image_MouseLeave_3(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_4(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.BlueViolet;
+        }
+
+        private void Image_MouseEnter_4(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в фиолетовый";
+        }
+
+        private void Image_MouseLeave_4(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_5(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Blue;
+        }
+
+        private void Image_MouseEnter_5(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в синий";
+        }
+
+        private void Image_MouseLeave_5(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_6(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.Gray;
+        }
+
+        private void Image_MouseEnter_6(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в серый";
+        }
+
+        private void Image_MouseLeave_6(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseDown_7(object sender, MouseButtonEventArgs e)
+        {
+            Window1.Background = Brushes.White;
+        }
+
+        private void Image_MouseEnter_7(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Покрасить фон в белый";
+        }
+
+        private void Image_MouseLeave_7(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+
+        private void Image_MouseEnter_8(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Информация о разработчике";
+        }
+
+        private void Image_MouseLeave_8(object sender, MouseEventArgs e)
+        {
+            SB.Text = "";
+        }
+
+        private void Image_MouseEnter_9(object sender, MouseEventArgs e)
+        {
+            SB.Text = "Выход из приложения";
+        }
+
+        private void Image_MouseLeave_9(object sender, MouseEventArgs e)
         {
             SB.Text = "";
         }
