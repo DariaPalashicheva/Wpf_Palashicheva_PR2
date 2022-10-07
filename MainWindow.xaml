@@ -26,36 +26,36 @@
         </StatusBar>
         <ToolBar Margin="242,0,0,358">
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\yellow.png" MouseDown="Image_MouseDown" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+                <Image x:Name="img1" Width="14" Height="14" Source="Resources/yellow.png" MouseDown="Image_MouseDown" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\red.png" MouseDown="Image_MouseDown_1" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1"/>
+                <Image x:Name="img2" Width="14" Height="14" Source="Resources/red.png" MouseDown="Image_MouseDown_1" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\orange.jpg" MouseDown="Image_MouseDown_2" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2"/>
+                <Image x:Name="img3" Width="14" Height="14" Source="Resources/orange.jpg" MouseDown="Image_MouseDown_2" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\green.png" MouseDown="Image_MouseDown_3" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3"/>
+                <Image x:Name="img4" Width="14" Height="14" Source="Resources/green.png" MouseDown="Image_MouseDown_3" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\violet.jpg" MouseDown="Image_MouseDown_4" MouseEnter="Image_MouseEnter_4" MouseLeave="Image_MouseLeave_4"/>
+                <Image x:Name="img5" Width="14" Height="14" Source="Resources/violet.jpg" MouseDown="Image_MouseDown_4" MouseEnter="Image_MouseEnter_4" MouseLeave="Image_MouseLeave_4"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\blue.jpg" MouseDown="Image_MouseDown_5" MouseEnter="Image_MouseEnter_5" MouseLeave="Image_MouseLeave_5"/>
+                <Image x:Name="img6" Width="14" Height="14" Source="Resources/blue.jpg" MouseDown="Image_MouseDown_5" MouseEnter="Image_MouseEnter_5" MouseLeave="Image_MouseLeave_5"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\gray.png" MouseDown="Image_MouseDown_6" MouseEnter="Image_MouseEnter_6" MouseLeave="Image_MouseLeave_6"/>
+                <Image x:Name="img7" Width="14" Height="14" Source="Resources/gray.png" MouseDown="Image_MouseDown_6" MouseEnter="Image_MouseEnter_6" MouseLeave="Image_MouseLeave_6"/>
             </Button>
             <Button>
-                <Image Width="14" Height="14" Source="D:\Палашичева\УП WPF\images\white.png" MouseDown="Image_MouseDown_7" MouseEnter="Image_MouseEnter_7" MouseLeave="Image_MouseLeave_7"/>
-            </Button>
-            <Separator/>
-            <Button>
-                <Image Width="25" Height="25" Source="D:\Палашичева\УП WPF\images\razrab.png" MouseDown="MenuItem_Click" MouseEnter="Image_MouseEnter_8" MouseLeave="Image_MouseLeave_8"/>
+                <Image x:Name="img8" Width="14" Height="14" Source="Resources/white.png" MouseDown="Image_MouseDown_7" MouseEnter="Image_MouseEnter_7" MouseLeave="Image_MouseLeave_7"/>
             </Button>
             <Separator/>
             <Button>
-                <Image Width="25" Height="25" Source="D:\Палашичева\УП WPF\images\exit.png" MouseDown="MenuItem_Click_8" MouseEnter="Image_MouseEnter_9" MouseLeave="Image_MouseLeave_9"/>
+                <Image x:Name="img9" Width="25" Height="25" Source="Resources/razrab.png" MouseDown="MenuItem_Click" MouseEnter="Image_MouseEnter_8" MouseLeave="Image_MouseLeave_8"/>
+            </Button>
+            <Separator/>
+            <Button>
+                <Image x:Name="img10" Width="25" Height="25" Source="Resources/exit.png" MouseDown="MenuItem_Click_8" MouseEnter="Image_MouseEnter_9" MouseLeave="Image_MouseLeave_9"/>
             </Button>
             <Separator/>
             <Button x:Name="Win2" Content="Графический редактор" HorizontalAlignment="Left" VerticalAlignment="Top" Width="226" Height="45" Click="Win2_Click" FontSize="16" BorderBrush="#FF3E3AA6">

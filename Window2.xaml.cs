@@ -23,5 +23,31 @@ namespace Wpf_Palashicheva_PR2
         {
             InitializeComponent();
         }
+
+
+        private void MenuItemRed_Click(object sender, RoutedEventArgs e)
+        {
+            Ink.DefaultDrawingAttributes.Color = Colors.Red;
+        }
+        private void MenuItemBlue_Click(object sender, RoutedEventArgs e)
+        {
+            Ink.DefaultDrawingAttributes.Color = Colors.Blue;
+        }
+        private void MenuItemGreen_Click(object sender, RoutedEventArgs e)
+        {
+            Ink.DefaultDrawingAttributes.Color = Colors.Green;
+
+        }
+
+        private void MenuItemEraser_Click(object sender, RoutedEventArgs e)
+        {
+            Ink.DefaultDrawingAttributes.Color = Colors.White;
+        }
+
+        private void SliderValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+        //    Ink.DefaultDrawingAttributes.Width = ((Slider)sender).Value;
+       //     Ink.DefaultDrawingAttributes.Height = ((Slider)sender).Value;
+        }
     }
 }
