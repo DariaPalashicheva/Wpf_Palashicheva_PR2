@@ -6,6 +6,18 @@
         xmlns:local="clr-namespace:Wpf_Palashicheva_PR2"
         mc:Ignorable="d"
         Title="Палашичева УП ПР2 Задание1" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="MenuItem">
+            <Style.Setters>
+                <Setter Property="Background" Value="DarkBlue"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Padding" Value="5"/>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="MenuItem" x:Key="Exit">
+            <Setter Property="Background" Value="LightGray"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Menu Background="#FFFFFBFF" BorderBrush="Navy" BorderThickness="1" Margin="0,0,0,358">
             <MenuItem Header = "_Цвет окна" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" Height="60">
@@ -19,7 +31,7 @@
                 <MenuItem Header = "_Белый" Click="MenuItem_Click_9"/>
             </MenuItem>
             <MenuItem Header = "_О разработчике" Click="MenuItem_Click" MouseEnter="MenuItem_MouseEnter_1" MouseLeave="MenuItem_MouseLeave_1" Height="60"/>
-            <MenuItem Header = "_Закрыть" Click="MenuItem_Click_8" MouseEnter="MenuItem_MouseEnter_2" MouseLeave="MenuItem_MouseLeave_2" Height="60"/>
+            <MenuItem Style="{StaticResource Exit}" Header = "_Закрыть" Click="MenuItem_Click_8" MouseEnter="MenuItem_MouseEnter_2" MouseLeave="MenuItem_MouseLeave_2" Height="60"/>
         </Menu>
         <StatusBar HorizontalAlignment="Left" Height="34" Margin="0,386,0,-1" VerticalAlignment="Top" Width="792">
             <TextBlock x:Name="SB"/>

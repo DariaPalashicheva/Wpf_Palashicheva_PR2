@@ -6,14 +6,23 @@
         xmlns:local="clr-namespace:Wpf_Palashicheva_PR2"
         mc:Ignorable="d"
         Title="Задание 2. Графический редактор" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="MenuItem">
+            <Style.Setters>
+                <Setter Property="Background" Value="DarkBlue"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Padding" Value="5"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
     <Grid Background="#FFFDF4FF">
         <Menu>
-            <MenuItem Header="Цвет кисти" Background="#FFA0BAE0" Height="37" Width="100" FontSize="16">
+            <MenuItem Header="Цвет кисти"  Height="37" Width="100" FontSize="16">
                 <MenuItem Header="Красный" Click="MenuItemRed_Click" />
                 <MenuItem Header="Синий" Click="MenuItemBlue_Click" />
                 <MenuItem Header="Зелёный" Click="MenuItemGreen_Click" />
             </MenuItem>
-            <MenuItem Header="Ластик" Background="#FFA0BAE0" Click="MenuItemEraser_Click" Height="37" Width="77" FontSize="16"></MenuItem>
+            <MenuItem Header="Ластик" Click="MenuItemEraser_Click" Height="37" Width="77" FontSize="16"></MenuItem>
             <Slider x:Name="slider" Minimum="1" Maximum="100" Value="20" ValueChanged="SliderValueChanged" IsSelectionRangeEnabled="True" SmallChange="1" Height="22" Width="470"/>
         </Menu>
         <InkCanvas Margin="49,49,42,46" x:Name="Ink">
